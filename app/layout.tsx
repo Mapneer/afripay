@@ -1,3 +1,8 @@
+import { GeistMono } from "next/font/google";
+
+const geistMono = GeistMono({
+  subsets: ["latin"],
+});
 import { WhopApp } from "@whop/react/components";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
